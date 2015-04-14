@@ -125,6 +125,14 @@ public class advancesearch {
                                          
                                          fdriver.findElementByXPath("//input[@name='as_sitesearch']");
                                          
+                             //site search
+                                        
+                                       fdriver.findElementByXPath("//form[@name='f']/div[5]/div[4]/div[2]/div/input[@name='as_sitesearch']").sendKeys("google.com");
+                                         
+                                         
+                                         
+                                         
+                                         
                                          
                                          
                                          
